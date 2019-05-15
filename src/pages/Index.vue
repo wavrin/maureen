@@ -18,7 +18,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Hello, world!"
+    title: "Maureen's Readers"
   }
 };
 </script>
