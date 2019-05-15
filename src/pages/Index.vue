@@ -4,7 +4,7 @@
       <v-layout justify-space-around>
         <v-flex>
           <div class="title">
-            <g-image alt="Maureen's Readers" src="~/maureen.png" width="400"/>
+            <g-image alt="Maureen's Readers" src="~/maureen.png" width="375"/>
           </div>
         </v-flex>
       </v-layout>
