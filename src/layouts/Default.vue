@@ -5,7 +5,8 @@
       <v-spacer></v-spacer>
       <v-toolbar-items>
         <v-btn class="nav__link" to="/">Home</v-btn>
-        <v-btn class="nav__link" to="/about">About</v-btn>
+        <!--<v-btn class="nav__link" to="/about">About</v-btn>-->
+        <v-btn class="nav__link" to="/donate">Donate</v-btn>
       </v-toolbar-items>
     </v-toolbar>
     <v-container>
