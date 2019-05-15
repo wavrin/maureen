@@ -23,6 +23,15 @@
     <h2>Mail a check:</h2>Maureen's Readers
     <br>8385 Balsam Ln N
     <br>Maple Grove, MN 55369
+    <br>
+    <br>
+    <p>
+      As a 501 (c)(3) public charity, donations
+      <br>to Maureen's Readers are tax deductable gifts.
+      <br>Maureen's Readers tax code is 83-3010984. If
+      <br>you are mailing a check and would like a
+      <br>receipt, please provide contact information.
+    </p>
   </Layout>
 </template>
 
