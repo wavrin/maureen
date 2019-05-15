@@ -24,4 +24,7 @@ query {
 </static-query>
 
 <style>
+.v-toolbar__title {
+  font-family: "Satisfy", cursive;
+}
 </style>
