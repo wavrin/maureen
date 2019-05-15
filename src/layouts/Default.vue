@@ -12,6 +12,11 @@
     <v-container>
       <slot/>
     </v-container>
+    <footer class="footer">
+      <span
+        class="footer__copyright"
+      >© {{ new Date().getFullYear() }} Maureen's Readers, a US 501 (c)(3) public charity.</span>
+    </footer>
   </v-app>
 </template>
 
@@ -26,5 +31,22 @@ query {
 <style>
 .v-toolbar__title {
   font-family: "Satisfy", cursive;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: calc(var(--space) / 2);
+  text-align: center;
+  font-size: 0.8em;
+
+  > span {
+    margin: 0 0.35em;
+  }
+
+  a {
+    color: currentColor;
+  }
 }
 </style>
