@@ -15,7 +15,7 @@
     <footer class="footer">
       <span
         class="footer__copyright"
-      >© {{ new Date().getFullYear() }} Maureen's Readers, a US 501 (c)(3) public charity. EIN: 83-3010984</span>
+      >© {{ new Date().getFullYear() }} Maureen's Readers, a US 501 (c)(3) charity. EIN: 83-3010984</span>
     </footer>
   </v-app>
 </template>
