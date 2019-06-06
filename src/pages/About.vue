@@ -43,7 +43,7 @@
       implemented “book club” for their students. This was a hit with them and subsequently
       contributed to pronounced improvement in reading and comprehension test scores.
     </p>
-
+    <g-image src="~/letter.jpg" width="400" class="image"/>
     <p>
       Maureen retired from teaching in 2010. The following year I retired from dentistry and
       shortly thereafter we moved to Maple Grove to be near our grandchildren. We started
@@ -94,3 +94,9 @@ export default {
   }
 };
 </script>
+
+<style>
+.image {
+  float: right;
+}
+</style>
