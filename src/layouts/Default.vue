@@ -5,7 +5,7 @@
       <v-spacer></v-spacer>
       <v-toolbar-items>
         <v-btn class="nav__link" to="/">Home</v-btn>
-        <!--<v-btn class="nav__link" to="/about">About</v-btn>-->
+        <v-btn class="nav__link" to="/about">About</v-btn>
         <v-btn class="nav__link" to="/donate">Donate</v-btn>
       </v-toolbar-items>
     </v-toolbar>
@@ -31,6 +31,11 @@ query {
 <style>
 .v-toolbar__title {
   font-family: "Satisfy", cursive;
+  color: #f41e84;
+}
+
+p {
+  font-family: Lato;
 }
 
 .footer {
@@ -41,7 +46,7 @@ query {
   text-align: center;
   font-size: 0.8em;
 
-  > span {
+  span {
     margin: 0 0.35em;
   }
 

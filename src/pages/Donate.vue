@@ -26,7 +26,7 @@
     <br>
     <br>
     <p>
-      As a 501 (c)(3) public charity, donations
+      As a 501 (c)(3) charity, donations
       <br>to Maureen's Readers are tax deductable gifts.
       <br>Maureen's Readers tax code is 83-3010984. If
       <br>you are mailing a check and would like a
