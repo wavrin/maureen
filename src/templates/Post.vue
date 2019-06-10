@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <g-link class="logo" to="/">
+    <g-link class="logo" to="/updates">
       <span class="logo__text">&larr; Updates</span>
     </g-link>
     <div class="post-title">
