@@ -7,16 +7,24 @@ const nodeExternals = require("webpack-node-externals");
 
 module.exports = {
   siteName: "Maureen's Readers",
+  siteUrl: "https://maureensreaders.org",
+  siteDescription: "Maureen's Readers promotess and develops reading in elementary grade students.",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "blog/**/*.md",
+        path: "content/posts/*.md",
         typeName: "Post",
-        route: "/blog/:slug"
+        route: "/updates/:slug"
       }
     }
   ],
+  {
+    use: "@gridsome/plugin-google-analytics",
+    options: {
+      id: "UA-141774823-1"
+    }
+  },
   chainWebpack(config, { isServer }) {
     if (isServer) {
       config.externals(
@@ -24,6 +32,15 @@ module.exports = {
           whitelist: [/\.css$/, /\?vue&type=style/]
         })
       );
+    }
+  },
+  transformers: {
+    //Add markdown support to all file-system sources
+    remark: {
+      externalLinksTarget: "_blank",
+      externalLinksRel: ["nofollow", "noopener", "noreferrer"],
+      anchorClassName: "icon icon-link",
+      plugins: ["@gridsome/remark-prismjs"]
     }
   }
 };

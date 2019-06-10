@@ -37,13 +37,49 @@
             <br>donate and contribute.
           </p>
         </v-flex>
+
+        <v-flex xs12>
+          <br>
+          <br>
+          <h2>Recent Updates</h2>
+          <div class="posts">
+            <br>
+            <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
+          </div>
+        </v-flex>
       </v-layout>
     </v-container>
   </Layout>
 </template>
 
+<page-query>
+{
+  posts: allPost {
+    edges {
+      node {
+        id
+        title
+        path
+        date (format: "D. MMMM YYYY")
+        description
+        ...on Post {
+            id
+            title
+            path
+        }
+      }
+    }
+  }
+}
+</page-query>
+
 <script>
+import PostCard from "~/components/PostCard.vue";
+
 export default {
+  components: {
+    PostCard
+  },
   metaInfo: {
     title: "Maureen's Readers"
   }
