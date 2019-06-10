@@ -3,6 +3,7 @@
 import Vuetify from "vuetify";
 import DefaultLayout from "~/layouts/Default.vue";
 import "vuetify/dist/vuetify.min.css";
+import VueDisqus from "vue-disqus";
 
 export default function(Vue, { router, head, isClient }) {
   head.link.push({
@@ -13,4 +14,5 @@ export default function(Vue, { router, head, isClient }) {
   Vue.use(Vuetify);
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
+  Vue.use(VueDisqus);
 }

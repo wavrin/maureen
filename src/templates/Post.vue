@@ -16,9 +16,9 @@
         <PostTags :post="$page.post"/>
       </div>
       <br>
-      <!--<div class="comments">
-        <vue-disqus shortname="wavrin" :identifier="$page.post.title"></vue-disqus>
-      </div>-->
+      <div class="comments">
+        <vue-disqus shortname="maureensreaders" :identifier="$page.post.title"></vue-disqus>
+      </div>
     </div>
   </Layout>
 </template>

@@ -14,7 +14,8 @@
     "@gridsome/transformer-remark": "^0.2.0",
     "gridsome": "^0.6.4",
     "vuetify": "^1.5.14",
-    "webpack-node-externals": "^1.7.2"
+    "webpack-node-externals": "^1.7.2",
+    "vue-disqus": "^3.0.5"
   },
   "devDependencies": {
     "@gridsome/source-filesystem": "^0.3.0",
