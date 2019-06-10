@@ -8,7 +8,9 @@ const nodeExternals = require("webpack-node-externals");
 module.exports = {
   siteName: "Maureen's Readers",
   siteUrl: "https://maureensreaders.org",
-  siteDescription: "Maureen's Readers promotess and develops reading in elementary grade students.",
+  siteDescription:
+    "Maureen's Readers promotess and develops reading in elementary grade students.",
+
   plugins: [
     {
       use: "@gridsome/source-filesystem",
@@ -17,14 +19,15 @@ module.exports = {
         typeName: "Post",
         route: "/updates/:slug"
       }
+    },
+    {
+      use: "@gridsome/plugin-google-analytics",
+      options: {
+        id: "UA-141774823-1"
+      }
     }
   ],
-  {
-    use: "@gridsome/plugin-google-analytics",
-    options: {
-      id: "UA-141774823-1"
-    }
-  },
+
   chainWebpack(config, { isServer }) {
     if (isServer) {
       config.externals(
