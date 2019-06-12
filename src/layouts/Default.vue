@@ -3,13 +3,39 @@
     <v-toolbar class="header">
       <v-toolbar-title>{{ $static.metaData.siteName }}</v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-toolbar-items>
-        <v-btn class="nav__link" to="/">Home</v-btn>
-        <v-btn class="nav__link" to="/about">About</v-btn>
-        <v-btn class="nav__link" to="/updates">Updates</v-btn>
-        <v-btn class="nav__link" to="/donate">Donate</v-btn>
+      <v-toolbar-items class="hidden-sm-and-down">
+        <v-btn class="nav__link" to="/" flat>Home</v-btn>
+        <v-btn class="nav__link" to="/updates" flat>Updates</v-btn>
+        <v-btn class="nav__link" to="/about" flat>About</v-btn>
+        <v-btn class="nav__link" to="/donate" flat>Donate</v-btn>
       </v-toolbar-items>
+      <v-menu class="hidden-md-and-up">
+        <v-toolbar-side-icon slot="activator"></v-toolbar-side-icon>
+        <v-list>
+          <g-link class="nav__link" to="/">
+            <v-list-tile>
+              <v-list-tile-title>Home</v-list-tile-title>
+            </v-list-tile>
+          </g-link>
+          <g-link class="nav__link" to="/updates">
+            <v-list-tile>
+              <v-list-tile-title>Updates</v-list-tile-title>
+            </v-list-tile>
+          </g-link>
+          <g-link class="nav__link" to="/about">
+            <v-list-tile>
+              <v-list-tile-title>About</v-list-tile-title>
+            </v-list-tile>
+          </g-link>
+          <g-link class="nav__link" to="/donate">
+            <v-list-tile>
+              <v-list-tile-title>Donate</v-list-tile-title>
+            </v-list-tile>
+          </g-link>
+        </v-list>
+      </v-menu>
     </v-toolbar>
+
     <v-container>
       <slot/>
     </v-container>
@@ -38,7 +64,10 @@ query {
 p {
   font-family: Lato;
 }
-
+.nav__link {
+  text-decoration: none;
+  color: currentColor !important;
+}
 .footer {
   display: flex;
   align-items: center;

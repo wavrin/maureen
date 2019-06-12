@@ -9,7 +9,7 @@ module.exports = {
   siteName: "Maureen's Readers",
   siteUrl: "https://maureensreaders.org",
   siteDescription:
-    "Maureen's Readers promotess and develops reading in elementary grade students.",
+    "Maureen's Readers is a charity that promotes and develops reading in elementary grade students.",
 
   plugins: [
     {
