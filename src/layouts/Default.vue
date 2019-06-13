@@ -40,9 +40,16 @@
       <slot/>
     </v-container>
     <footer class="footer">
-      <span
-        class="footer__copyright"
-      >© {{ new Date().getFullYear() }} Maureen's Readers, a US 501 (c)(3) charity. EIN: 83-3010984</span>
+      <span class="footer__copyright">
+        <a href="https://twitter.com/maureensreaders">
+          <g-image src="~/twitter.png" width="40" class="image"/>
+        </a>
+        <br>
+        © {{ new Date().getFullYear() }} Maureen's Readers, a US 501 (c)(3) charity. EIN: 83-3010984 | Site by
+        <a
+          href="https://elmcreek.io"
+        >Elm Creek</a>
+      </span>
     </footer>
   </v-app>
 </template>

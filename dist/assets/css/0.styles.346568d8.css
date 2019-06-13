@@ -1,4 +1,4 @@
-.v-toolbar__title{font-family:Satisfy,cursive;color:#f41e84}p{font-family:Lato}.footer{display:flex;align-items:center;justify-content:center;padding:calc(var(--space)/2);text-align:center;font-size:.8em;span{margin:0 .35em}a{color:currentColor}}
+.v-toolbar__title{font-family:Satisfy,cursive;color:#f41e84}p{font-family:Lato}.nav__link{text-decoration:none;color:currentColor!important}.footer{display:flex;align-items:center;justify-content:center;padding:calc(var(--space)/2);text-align:center;font-size:.8em;span{margin:0 .35em}a{color:currentColor}}
 
 /*!
 * Vuetify v1.5.14
