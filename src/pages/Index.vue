@@ -45,7 +45,8 @@
             <br>
             <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
           </div>
-          <br><br>
+          <br>
+          <br>
           <a href="https://twitter.com/maureensreaders">
             <g-image src="~/twitter.png" width="40" class="image"/>
           </a>
@@ -108,5 +109,9 @@ export default {
 .material-icons.md-48 {
   font-size: 48px;
   color: #f41e84;
+}
+
+.image {
+  align-self: auto;
 }
 </style>
