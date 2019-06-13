@@ -48,12 +48,12 @@
           <br>
           <br>
         </v-flex>
-        <div class="social">
-          <a href="https://twitter.com/maureensreaders">
-            <g-image src="~/twitter.png" width="40" class="image"/>
-          </a>
-        </div>
       </v-layout>
+      <div class="social">
+        <a href="https://twitter.com/maureensreaders">
+          <g-image src="~/twitter.png" width="40" class="image"/>
+        </a>
+      </div>
     </v-container>
   </Layout>
 </template>
@@ -114,6 +114,6 @@ export default {
 }
 
 .social {
-  vertical-align: middle;
+  text-align: center;
 }
 </style>
