@@ -47,12 +47,12 @@
           </div>
           <br>
           <br>
-          <div class="social">
-            <a href="https://twitter.com/maureensreaders">
-              <g-image src="~/twitter.png" width="40" class="image"/>
-            </a>
-          </div>
         </v-flex>
+        <div class="social">
+          <a href="https://twitter.com/maureensreaders">
+            <g-image src="~/twitter.png" width="40" class="image"/>
+          </a>
+        </div>
       </v-layout>
     </v-container>
   </Layout>
