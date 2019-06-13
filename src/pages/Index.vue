@@ -37,7 +37,6 @@
             <br>donate and contribute.
           </p>
         </v-flex>
-
         <v-flex xs12>
           <br>
           <br>
@@ -46,6 +45,10 @@
             <br>
             <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
           </div>
+          <br><br>
+          <a href="https://twitter.com/maureensreaders">
+            <g-image src="~/twitter.png" width="40" class="image"/>
+          </a>
         </v-flex>
       </v-layout>
     </v-container>
