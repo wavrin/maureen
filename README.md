@@ -1,12 +1,9 @@
-# Default starter for Gridsome
+### About Maureen's Readers
 
-### 1. Install Gridsome CLI tool if you don't have
+Website for [Maureen's Readers](https://maureensreaders.org/), a non profit promoting and developing reading in elementary grade students.
 
-`npm install --global @gridsome/cli`
+### About the stack
 
-### 2. Create a Gridsome project
-
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+1. [Gridsome](https://github.com/gridsome/gridsome)
+2. [Vuetify](https://github.com/vuetifyjs/vuetify)
+3. [AWS Amplify](https://aws.amazon.com/amplify/)
