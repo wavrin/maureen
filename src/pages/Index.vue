@@ -47,9 +47,11 @@
           </div>
           <br>
           <br>
-          <a href="https://twitter.com/maureensreaders">
-            <g-image src="~/twitter.png" width="40" class="image"/>
-          </a>
+          <div class="social">
+            <a href="https://twitter.com/maureensreaders">
+              <g-image src="~/twitter.png" width="40" class="image"/>
+            </a>
+          </div>
         </v-flex>
       </v-layout>
     </v-container>
@@ -111,7 +113,7 @@ export default {
   color: #f41e84;
 }
 
-.image {
-  align-self: auto;
+.social {
+  vertical-align: middle;
 }
 </style>
