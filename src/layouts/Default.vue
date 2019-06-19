@@ -1,7 +1,9 @@
 <template>
   <v-app>
     <v-toolbar class="header">
-      <v-toolbar-title>{{ $static.metaData.siteName }}</v-toolbar-title>
+      <v-toolbar-title>
+        <g-link class="nav__link" to="/">{{ $static.metaData.siteName }}</g-link>
+      </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn class="nav__link" to="/" flat>Home</v-btn>
@@ -42,7 +44,7 @@
 
     <footer class="footer">
       <span class="footer__copyright">
-        © {{ new Date().getFullYear() }} Maureen's Readers, a US 501 (c)(3) charity. EIN: 83-3010984 | Site by
+        © {{ new Date().getFullYear() }} Maureen's Readers, a US 501 (c)(3) charity. EIN: 83-3010984 | contact@maureensreaders.org | Site by
         <a
           href="https://elmcreek.io"
         >Elm Creek</a>
