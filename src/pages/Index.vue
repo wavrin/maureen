@@ -6,7 +6,6 @@
           <div class="title">
             <g-image alt="Maureen's Readers" src="~/maureen.png" width="375"/>
           </div>
-          <br>
           <div class="promo">
             Promoting and developing reading in
             elementary grade students. It is not only important for kids to develop reading skills early, but
@@ -16,8 +15,11 @@
             <br>
           </div>
         </v-flex>
-        <br>
+        <g-image class="frontpage" src="~/frontpage.jpg"/>
+
         <v-flex xs6>
+          <br>
+          <br>
           <h2>About</h2>
           <g-link to="/about">
             <i class="material-icons md-48">group</i>
@@ -103,6 +105,11 @@ export default {
   text-align: center;
 }
 
+.frontpage {
+  opacity: 0.5;
+  width: 100%;
+  height: auto;
+}
 .promo {
   font-family: Lato;
   font-size: 20px;
