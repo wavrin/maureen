@@ -30,6 +30,8 @@
           </p>
         </v-flex>
         <v-flex xs6>
+          <br>
+          <br>
           <h2>Donate</h2>
           <g-link to="/donate">
             <i class="material-icons md-48">library_books</i>
