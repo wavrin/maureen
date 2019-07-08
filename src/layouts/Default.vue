@@ -10,6 +10,9 @@
         <v-btn class="nav__link" to="/updates" flat>Updates</v-btn>
         <v-btn class="nav__link" to="/about" flat>About</v-btn>
         <v-btn class="nav__link" to="/donate" flat>Donate</v-btn>
+        <v-btn flat>
+          <a href="https://shop.spreadshirt.com/maureens-readers" class="nav__link">store</a>
+        </v-btn>
       </v-toolbar-items>
       <v-menu class="hidden-md-and-up">
         <v-toolbar-side-icon slot="activator"></v-toolbar-side-icon>
@@ -34,12 +37,18 @@
               <v-list-tile-title>Donate</v-list-tile-title>
             </v-list-tile>
           </g-link>
+
+          <a href="https://shop.spreadshirt.com/maureens-readers" class="nav__link">
+            <v-list-tile>
+              <v-list-tile-title>Store</v-list-tile-title>
+            </v-list-tile>
+          </a>
         </v-list>
       </v-menu>
     </v-toolbar>
 
     <v-container>
-      <slot/>
+      <slot />
     </v-container>
 
     <footer class="footer">

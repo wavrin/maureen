@@ -4,58 +4,62 @@
       <v-layout row wrap>
         <v-flex xs12>
           <div class="title">
-            <g-image alt="Maureen's Readers" src="~/maureen.png" width="375"/>
+            <g-image alt="Maureen's Readers" src="~/maureen.png" width="375" />
           </div>
           <div class="promo">
             Promoting and developing reading in
             elementary grade students. It is not only important for kids to develop reading skills early, but
             also to develop an
             <b>interest in reading</b> early.
-            <br>
-            <br>
+            <br />
+            <br />
           </div>
         </v-flex>
-        <g-image class="frontpage" src="~/frontpage.jpg"/>
+        <g-image class="frontpage" src="~/frontpage.jpg" />
 
         <v-flex xs6>
-          <br>
-          <br>
+          <br />
+          <br />
           <h2>About</h2>
           <g-link to="/about">
             <i class="material-icons md-48">group</i>
           </g-link>
           <p>
             Learn about our organization
-            <br>and its mission.
+            <br />and its mission.
           </p>
         </v-flex>
         <v-flex xs6>
-          <br>
-          <br>
+          <br />
+          <br />
           <h2>Donate</h2>
           <g-link to="/donate">
             <i class="material-icons md-48">library_books</i>
           </g-link>
           <p>
             Learn about opportunities to
-            <br>donate and contribute.
+            <br />donate and contribute.
           </p>
         </v-flex>
         <v-flex xs12>
-          <br>
-          <br>
+          <br />
+          <br />
           <h2>Recent Updates</h2>
           <div class="posts">
-            <br>
-            <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
+            <br />
+            <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
           </div>
-          <br>
-          <br>
+          <br />
+          <br />
         </v-flex>
       </v-layout>
       <div class="social">
         <a href="https://twitter.com/maureensreaders">
-          <g-image src="~/twitter.png" width="40" class="image"/>
+          <g-image src="~/twitter.png" width="40" class="image" />
+        </a>
+        &nbsp;
+        <a href="https://www.facebook.com/maureensreaders/">
+          <g-image src="~/facebook.png" width="40" class="image" />
         </a>
       </div>
     </v-container>
