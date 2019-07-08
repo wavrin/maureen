@@ -31,7 +31,7 @@
       </p>
       <p>
         Going forward we invite suggestions on how we can stimulate interest in reading in
-        elementary grades. If you like what we are trying do and would like to help, we invite you to
+        elementary grades. If you like what we are trying to do and would like to help, we invite you to
         donate to our cause. We will acknowledge all donations on our website. Maureen’s Readers is
         a 501(3)c organization. This is especially helpful for those that have to take RMD from IRAs.
       </p>
@@ -44,7 +44,7 @@
         implemented “book club” for their students. This was a hit with them and subsequently
         contributed to pronounced improvement in reading and comprehension test scores.
       </p>
-      <g-image src="~/letter.jpg" width="400" class="image"/>
+      <g-image src="~/letter.jpg" width="400" class="image" />
       <p>
         Maureen retired from teaching in 2010. The following year I retired from dentistry and
         shortly thereafter we moved to Maple Grove to be near our grandchildren. We started
@@ -68,7 +68,7 @@
         ardent dedication to fostering students interest in reading. Something that would be ongoing
         and sustaining. I had some ideas. Since it would take funds to implement these ideas, my
         family and I decided to start the non-profit Maureen’s Readers to fund any programs we came
-        with. Our first project was to subsidize the Rice Lake PTO’s book voucher program for the
+        up with. Our first project was to subsidize the Rice Lake PTO’s book voucher program for the
         Spring Book Fair. This enabled students that ordinarily would not be able to obtain books
         to call their own a chance to do so. This was successful and it was noted that there were
         some “very happy kids”. We would also like to get some books in the hands of some
