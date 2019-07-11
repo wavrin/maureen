@@ -32,7 +32,9 @@
       <p>
         Going forward we invite suggestions on how we can stimulate interest in reading in
         elementary grades. If you like what we are trying to do and would like to help, we invite you to
-        donate to our cause. We will acknowledge all donations on our website. Maureen’s Readers is
+        <a
+          href="/donate"
+        >donate to our cause</a>. We will acknowledge all donations on our website. Maureen’s Readers is
         a 501(3)c organization. This is especially helpful for those that have to take RMD from IRAs.
       </p>
       <h2>About Maureen</h2>
