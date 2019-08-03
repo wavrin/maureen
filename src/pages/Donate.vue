@@ -33,6 +33,9 @@
         <br>you are mailing a check and would like a
         <br>receipt, please provide contact information.
       </p>
+      <a href="https://smile.amazon.com/ch/83-3010984">
+        <g-image src="~/amazon.png" width="400" class="image" />
+      </a>
     </div>
   </Layout>
 </template>
