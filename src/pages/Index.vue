@@ -32,8 +32,8 @@
         <v-flex xs6>
           <br />
           <br />
-          <h2>Donate</h2>
-          <g-link to="/donate">
+          <h2>Support</h2>
+          <g-link to="/support">
             <i class="material-icons md-48">library_books</i>
           </g-link>
           <p>
@@ -53,15 +53,6 @@
           <br />
         </v-flex>
       </v-layout>
-      <div class="social">
-        <a href="https://twitter.com/maureensreaders">
-          <g-image src="~/twitter.png" width="40" class="image" />
-        </a>
-        &nbsp;
-        <a href="https://www.facebook.com/maureensreaders/">
-          <g-image src="~/facebook.png" width="40" class="image" />
-        </a>
-      </div>
     </v-container>
   </Layout>
 </template>
@@ -129,4 +120,7 @@ export default {
 .social {
   text-align: center;
 }
+
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:400px;}
+
 </style>
