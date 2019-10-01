@@ -13,3 +13,5 @@ As part of my volunteer activities, I’m working with two second grade students
 Maureen’s Readers has also decided to give every Kindergarten student at Rice Lake a book of their own periodically during the year. We feel the earlier a home library can be started the better. We plan to do this at other schools.
 
 Maureen’s Readers has also committed to provide books for a “book cart” that a teacher in the [LeSueur-Henderson school district](http://isd2397.org) has developed for her students to foster interest in reading. It is gratifying for us that this teacher was a colleague of Maureen’s. We continue to explore ways of fostering reading interest among young people and are open to suggestions from our followers.
+
+- Dennis
